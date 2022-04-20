@@ -1,7 +1,6 @@
 from json import dump
 from requests import get
 from bs4 import BeautifulSoup
-from re import search
 from sqlite3 import connect
 
 connection = connect("D:\Python\lnam.db")
